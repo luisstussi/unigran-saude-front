@@ -1,0 +1,25 @@
+.sectionClientsBackground{
+    height: 100%;
+    margin-left: 320px;
+
+    .divGridClients{
+        padding: 30px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(4, 25%);
+    }
+}
+
+@media (max-width: 1200px){
+    .sectionClientsBackground{
+        height: 100%;
+        margin-left: 320px;
+    
+        .divGridClients{
+            padding: 30px;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(3, 33.3%);
+        }
+    }
+}

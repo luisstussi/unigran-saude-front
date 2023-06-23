@@ -1,0 +1,16 @@
+.divBackgroundLoading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1E1E1E;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    .imgLogo{
+        margin-top: -100px;
+    }
+    .spanLoading{
+        display: flex;
+    }
+}

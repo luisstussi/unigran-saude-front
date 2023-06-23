@@ -1,0 +1,89 @@
+.divBackgroundMenuLeft{
+    width: 260px;
+    height: -webkit-fill-available;
+    background-color: #1E1E1E;
+    position: fixed;
+    display: grid;
+    grid-template-rows: min-content min-content auto;
+    padding: 30px 30px 30px 30px;
+    color: #A5A5A5;
+
+
+    i{
+        width: 90%;
+        height: 50px;
+        display: block;
+        margin: auto auto 50px auto;
+        background-color: white;
+    }
+
+    div{
+
+        .divMenu{
+
+            h1{
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            ul{
+                display: grid;
+                grid-gap: 5px;
+
+                .divLiWithOptions{
+                    display: grid;
+                    grid-gap: 10px;
+                    margin-bottom: 20px;
+
+                    li:not(:first-child){
+                        margin-left: 60px;
+                        opacity: .5;
+                    }
+                    li:not(:first-child):hover{
+                        opacity: 1;
+                    }
+                }
+            }    
+        }
+
+        .divCustomization{
+            margin-top: 40px;
+
+            h1{
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+        }
+
+    }
+
+    .divMoreOptions{
+        margin-top: auto;
+        ul{
+            display: grid;
+            grid-gap: 5px;
+
+            li{
+                display: flex;
+                grid-gap: 18px;
+                padding: 10px 10px 10px 20px;
+            }
+        }
+    }
+
+    .menuLeftButton{
+        width: 100%;
+        padding: 10px 10px 10px 20px;
+        border-radius: 9px;
+        display: flex;
+        grid-gap: 18px;
+        align-items: center;
+        justify-content: initial;
+        background-color: #343434;
+        color: white;
+        font-size: 16px;
+    }
+
+    
+}

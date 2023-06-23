@@ -1,0 +1,106 @@
+.sectionBackgroundScheduling{
+    height: 100%;
+    margin-left: 320px;
+    display: grid;
+    grid-template-rows: min-content;
+
+    .divCenterElements{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto min-content;
+
+        .spanShowAllScheduling{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(3, 33.3%);
+            grid-template-rows: repeat(4, min-content);
+            padding: 30px 20px 20px 80px;
+        }
+
+        .spanFilters{
+            width: 300px;
+            margin: 30px 20px 20px 20px;
+            padding: 30px 25px;
+            border-radius: 9px;
+            border: 1px solid #EEEEEE;
+            display: grid;
+            grid-template-rows: repeat(4, min-content);
+
+            h1{
+                margin: 0;
+                font-weight: 500;
+            }
+
+            .spanSearchInput{
+                display: flex;
+                background-color: #F9F9F9;
+                padding: 0px 10px;
+                border-radius: 9px;
+                margin-top: 15px;
+
+                img{
+                    margin: auto;
+                }
+
+                input{
+                    width: 100%;
+                    padding: 15px 10px;
+                }
+                input::placeholder{
+                    color: #BABABA;
+                }
+            }
+
+            .divFilter{
+                margin-top: 15px;
+
+                h3{
+                    font-size: 15px;
+                    font-weight: 500;     
+                }
+
+                .divGridFilter{
+                    display: grid;
+                    grid-gap: 10px;
+                    grid-template-columns: repeat(3, auto);
+
+                    div{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+
+                        span{
+                            width: 100%;
+                            padding: 5px 10px;
+                            border-radius: 9px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            text-align: center;
+                        }
+                        .inactive, .DayInactive{
+                            border: 1px solid #EEEEEE;
+                            color: #969696;
+                        }
+                        .active, .DayActive{
+                            border: none;
+                            background-color: #03BD7A;
+                            color: white;
+                        }
+                    }
+                }
+                
+            }
+
+            #ApplyFilters{
+                width: inherit;
+                height: fit-content;
+                margin-top: auto;
+                padding: 10px;
+                font-size: 16px;
+                border-radius: 9px;
+                background-color: #03BD7A;
+                color: white;
+            }
+        }
+    }
+}

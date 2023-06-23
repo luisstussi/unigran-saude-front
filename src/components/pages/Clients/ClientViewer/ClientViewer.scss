@@ -1,0 +1,51 @@
+.spanClientViewer{
+    height: fit-content;
+    border-radius: 9px;
+    border: 1px solid #EEEEEE;
+    padding: 15px 10px 15px 30px;
+
+    div:first-child{
+        display: flex;
+
+        img{
+            padding: 5px;
+            margin-left: auto;
+            margin-bottom: -10px;
+            cursor: pointer;
+        }
+    }
+
+    h2{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .divClientInfo{
+        align-items: center;
+        display: flex;
+        grid-gap: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        overflow-wrap: break-word;
+
+        b{
+            color: black;
+        }
+
+        p{
+            width: -webkit-fill-available;
+            color: #0000008f;
+            white-space: normal;
+            overflow-wrap: break-word;
+            line-break: anywhere;
+            line-height: 125%;
+        }
+        b{
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+    }
+}

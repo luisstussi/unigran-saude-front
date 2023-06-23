@@ -1,0 +1,110 @@
+#divBackgroundLogin{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    overflow: hidden;
+
+    #spanFormLogin{
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding: 30px 15px;
+
+        h1{
+            font-size: 30px;
+            font-weight: 500;
+            margin: 0;
+        }
+        p{
+            font-size: 16px;
+            margin: 0;
+            color: #868686;
+            text-align: center;
+        }
+        #spanForm{
+            display: grid;
+            grid-gap: 30px;
+            padding: 10px;
+            margin-top: 35px;
+            
+            input{
+                width: -webkit-fill-available;
+                padding: 10px 5px;
+                border-bottom: 1px solid #D9DBDF;
+            }
+
+            div{
+                display: flex;
+
+                #btnSeePassword{
+                    margin-left: -30px;
+                    img{
+                        width: 20px;
+                        height: 20px;    
+                    }
+                    
+                }
+            }
+
+            #btnResetPassword{
+                width: fit-content;
+                color: #5D5F60;
+                margin: -10px 0 0 auto;
+            } 
+
+            #btnLogin{
+                padding: 15px;
+                border-radius: 10px;
+                font-size: 16px;
+                color: #383838;
+                background-color: #C6F2D5;
+            }
+            
+        }
+    }
+
+    #spanBackgroundDecoration{
+        background-color: #F1F3F4;
+        display: grid;
+        grid-template-rows: repeat(3, min-content),;
+        padding: 90px 00px 50px 50px;
+
+        h1{
+            font-size: 30px;
+            font-weight: 500;
+            margin: 0;
+            line-height: 120%;
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 500;
+            margin: 15px 0 0 0;
+        }
+
+        #spanShowEtp{
+            width: fit-content;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 10px;
+            margin-top: 15px;
+
+            span{
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                background-color: #D9D9D9;
+            }
+            .active{
+                background-color: black;
+            }
+        }
+
+        .divFlexImages{
+            height: fit-content;
+            display: flex;
+            grid-gap: 30px;
+            margin: auto 0 0 auto;
+        }
+    }
+}

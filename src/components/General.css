@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&display=swap');
+
+body, #root{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0;
+    font-family: Poppins;
+}
+
+button, input{
+    font-family: Poppins;
+    background-color: transparent;
+    border: none;
+}
+
+button, li, select{
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+h1, h2, h3, h4{
+    font-weight: 500;
+}
